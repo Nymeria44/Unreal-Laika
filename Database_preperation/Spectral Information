@@ -1,0 +1,8 @@
+Class Temperature_max Temperature_min Apparent_color Mass Radius
+O 30000 60000 blue 64 16
+B 10000 30000 blue/white 18 7
+A 7500 10000 white 3.1 2
+F 6000 7500 white 1.7 1.4
+G 5000 6000 yellowish/white 1.1 1.1
+K 3500 5000 yellow/orange 0.8 0.9
+M 2000 3500 orange/red 0.4 0.5
