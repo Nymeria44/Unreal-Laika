@@ -33,10 +33,10 @@ and +Y in the direction of R.A. 6 hours, declination 0 degrees.
 filename = "Database_preperation/hygdata_v3.csv"
 
 stars_df = pd.read_csv(filename)
-stars_df = stars_df[stars_df["hd"].notnull()]
+stars_df = stars_df[stars_df["id"].notnull()]
 #stars_df["spect"][stars_df["spect"].isnull() & stars_df["lum"] < 0.2 ] = "Z0" # Way to code for brown dwarf
 
-stars_df = stars_df[["hd", "hr", "gl", "bf", "proper", "lum", "spect", "comp", "comp_primary", "x", "y", "z"]]
+stars_df = stars_df[["id", "proper", "lum", "spect", "comp", "comp_primary", "x", "y", "z"]]
 #print(stars_df["lum"].head(5))
 #print(stars_df['approx_mass'].head(5))
 
@@ -53,7 +53,6 @@ stars_df["mass_approx"] = stars_df["lum"].pow(3.5)
 stars_df["temperature_approx"] = None
 
 spectral_info_filename = "Database_preperation/Spectral Information"
-
 spectral_info_df = pd.read_csv(spectral_info_filename, delim_whitespace=True)
 spectral_info_df = spectral_info_df.set_index("Class")
 
@@ -63,20 +62,21 @@ df = pd.DataFrame(columns=["temperature_approx"])
 
 for letter in classes:
     temp_max_class = spectral_info_df.loc[letter]["Temperature_max"]
-    temp_mix_class = spectral_info_df.loc[letter]["Temperature_min"]
-    diff = temp_max_class - temp_mix_class
+    temp_min_class = spectral_info_df.loc[letter]["Temperature_min"]
+    diff = temp_max_class - temp_min_class
     temp_max_subclass = temp_max_class
 
     for i in range(10):
-        temp_max_subclass -= diff
         index_temp = letter + str(i)
 
         df2 = pd.DataFrame({
-            "temperature_approx": [temp_max_subclass],
+            "temperature_approx": [round(temp_max_subclass, 2)],
         },
         index = [index_temp])
 
         df = pd.concat([df, df2])
+
+        temp_max_subclass = temp_max_subclass - diff/9
 
 for index, row in df.iterrows():
     #print(index)

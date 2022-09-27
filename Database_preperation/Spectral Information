@@ -1,4 +1,4 @@
-Class Temperature_max Temperature_min Apparent_color Mass Radius
+Class Temperature_min Temperature_max Apparent_color Mass Radius
 O 30000 60000 blue 64 16
 B 10000 30000 blue/white 18 7
 A 7500 10000 white 3.1 2
