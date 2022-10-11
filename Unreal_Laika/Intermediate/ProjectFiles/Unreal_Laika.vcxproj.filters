@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Unreal_Laika.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{180D85C7-AB08-4612-84AC-FD49F9C499DA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Unreal_Laika.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Unreal_LaikaEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2F07582F-3D70-4043-8E88-53085733334E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Unreal_Laika">
+      <UniqueIdentifier>{A9B99DBC-6D58-4CC8-B621-2DAE9CC798E9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Unreal_Laika\StarClass.cpp">
+      <Filter>Source\Unreal_Laika</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal_Laika\StarClass.h">
+      <Filter>Source\Unreal_Laika</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Unreal_Laika\Unreal_Laika.Build.cs">
+      <Filter>Source\Unreal_Laika</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Unreal_Laika\Unreal_Laika.cpp">
+      <Filter>Source\Unreal_Laika</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal_Laika\Unreal_Laika.h">
+      <Filter>Source\Unreal_Laika</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Unreal_Laika\Unreal_LaikaGameModeBase.cpp">
+      <Filter>Source\Unreal_Laika</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal_Laika\Unreal_LaikaGameModeBase.h">
+      <Filter>Source\Unreal_Laika</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
