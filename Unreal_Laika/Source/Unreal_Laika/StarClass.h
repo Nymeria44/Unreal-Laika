@@ -10,13 +10,13 @@ UCLASS()
 class UNREAL_LAIKA_API AStarClass : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	AStarClass();
 
 	UPROPERTY(EditAnywhere, Category = "Components")
-	class UStaticMeshComponent* StarMesh;
+		class UStaticMeshComponent* StarMesh;
 
 	//Properites of Star
 
@@ -25,7 +25,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 

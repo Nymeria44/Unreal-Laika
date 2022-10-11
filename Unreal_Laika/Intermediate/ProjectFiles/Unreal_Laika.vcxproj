@@ -51,7 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{852688BC-1645-4DBA-9F7A-AE17BF43C7AA}</ProjectGuid>
+    <ProjectGuid>{97CED14F-B899-486C-A24B-A4003BD13576}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>Unreal_Laika</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

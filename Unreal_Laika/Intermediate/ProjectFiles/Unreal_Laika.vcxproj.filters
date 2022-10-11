@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Unreal_Laika.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{180D85C7-AB08-4612-84AC-FD49F9C499DA}</UniqueIdentifier>
+      <UniqueIdentifier>{03195567-6087-417C-84D7-EB49C223B599}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Unreal_Laika.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{2F07582F-3D70-4043-8E88-53085733334E}</UniqueIdentifier>
+      <UniqueIdentifier>{7AC2465E-F5F2-4F72-A629-7CC82E06B451}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Unreal_Laika">
-      <UniqueIdentifier>{A9B99DBC-6D58-4CC8-B621-2DAE9CC798E9}</UniqueIdentifier>
+      <UniqueIdentifier>{FF31C04C-6F1A-421A-97A3-0F10420F20B8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Unreal_Laika\StarClass.cpp">
       <Filter>Source\Unreal_Laika</Filter>
