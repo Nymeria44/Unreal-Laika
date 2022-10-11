@@ -11,7 +11,7 @@ AStarClass::AStarClass()
 	PrimaryActorTick.bCanEverTick = true;
 
 	StarMesh = CreateDefaultSubobject<UStaticMeshComponent>("StarMesh");
-
+	SetRootComponent(StarMesh);
 }
 
 // Called when the game starts or when spawned

@@ -15,10 +15,37 @@ public:
 	// Sets default values for this actor's properties
 	AStarClass();
 
+	//Declaring Star Mesh
 	UPROPERTY(EditAnywhere, Category = "Components")
-		class UStaticMeshComponent* StarMesh;
-
-	//Properites of Star
+	class UStaticMeshComponent* StarMesh;
+	
+	/********************************************************************************
+	* PROPERTIES OF THE STAR
+	********************************************************************************/
+	//ID number of the star
+	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
+	int HD;
+	//english name
+	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
+	char properName[20];
+	//lumonoisty of the star
+	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
+	float lum;
+	//tempature of the star
+	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
+	float temp;
+	//spectral type of the star
+	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
+	float spect;
+	//Are there multiple stars within the system?
+	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
+	int comp_primary;
+	// What star number is it within the system?
+	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
+	int comp;
+	//Position within the galaxy (sun is 0,0,0)
+	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
+	int posX, posY, PosZ;
 
 
 protected:
