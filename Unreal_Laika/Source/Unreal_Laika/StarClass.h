@@ -27,7 +27,7 @@ public:
 	int HD;
 	//english name
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-	char properName[20];
+	FText properName;
 	//lumonoisty of the star
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
 	float lum;
@@ -45,7 +45,11 @@ public:
 	int comp;
 	//Position within the galaxy (sun is 0,0,0)
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-	int posX, posY, PosZ;
+	int posX;
+	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
+	int posY;
+	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
+	int PosZ;
 
 
 protected:
