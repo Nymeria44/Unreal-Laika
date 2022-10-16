@@ -36,6 +36,8 @@ protected:
 	/// <param name="Value"></param>
 	void MoveRight(float Value);
 
+	class UFloatingPawnMovement* FloatingPawnMovement;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

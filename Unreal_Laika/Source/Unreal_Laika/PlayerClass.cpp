@@ -13,10 +13,15 @@ APlayerClass::APlayerClass()
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	CreateDefaultSubobject<UFloatingPawnMovement>("PawnMovement");
-
-	PlayerMesh = CreateAbstractDefaultSubobject<UStaticMeshComponent>("CubeMesh");
+	FloatingPawnMovement = CreateAbstractDefaultSubobject<UFloatingPawnMovement>("PawnMovement");
+	
+	PlayerMesh = CreateAbstractDefaultSubobject<UStaticMeshComponent>("PlayerMesh");
+	
 	Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
+	Camera->SetRelativeLocation(FVector(-500.f, 0.f, 0.f));
+	Camera->SetupAttachment(PlayerMesh);
+
+	SetRootComponent(PlayerMesh);
 }
 
 // Called when the game starts or when spawned
@@ -45,10 +50,10 @@ void APlayerClass::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void APlayerClass::MoveForward(float Value)
 {
-	AddMovementInput(GetActorForwardVector(), Value);
+	FloatingPawnMovement->AddInputVector(GetActorForwardVector() * Value);
 }
 
 void APlayerClass::MoveRight(float Value)
 {
-	AddMovementInput(GetActorRightVector(), Value);
+	FloatingPawnMovement->AddInputVector(GetActorRightVector() * Value);
 }
