@@ -17,68 +17,67 @@ public:
 
 	//Declaring Star Mesh
 	UPROPERTY(EditAnywhere, Category = "Components")
-		class UStaticMeshComponent* StarMesh;
+	class UStaticMeshComponent* StarMesh;
 
 	/********************************************************************************
 	* PROPERTIES OF THE STAR
 	********************************************************************************/
 	//ID number of the star
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		int ID;
+	int32 ID;
 	//English name
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		FText ProperName;
+	FString ProperName;
 	//Lumonoisty of the star
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		float Luminosity;
+	float Luminosity;
 	//Spectral type of the star
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		FText Spect;
+	FString Spect;
 	//WHAT IS THIS
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		float ci;
+	float ci;
 	//What star number is it within the system?
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		int comp;
+	int32 comp;
 	//Are there multiple stars within the system?
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		int CompPrimary;
+	int32 CompPrimary;
 	//Position within the galaxy (sun is 0,0,0)
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		float PosX;
+	float PosX;
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		float PosY;
+	float PosY;
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		float PosZ;
+	float PosZ;
 	//Absolute Magnitude (Fixed Brightness)
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		float AbsMag;
+	float AbsMag;
 	//WHAT IS THIS
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		FText StarSpectralTypeLetter;
+	FString StarSpectralTypeLetter;
 	//WHAT IS THIS
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		int StarSpectralTypeNumber;
+	int32 StarSpectralTypeNumber;
 	//WHAT IS THIS
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		FText StarHRType;
+	FString StarHRType;
 	//Mass of the star
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		float Mass;
+	float Mass;
 	//Tempature of the star
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		float Temperature;
+	float Temperature;
 	//Radius of the star
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		float Radius;
+	float Radius;
 	//R,G,B of the star
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		float Red;
+	float Red;
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		float Green;
+	float Green;
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
-		float Blue;
-
+	float Blue;
 
 
 protected:

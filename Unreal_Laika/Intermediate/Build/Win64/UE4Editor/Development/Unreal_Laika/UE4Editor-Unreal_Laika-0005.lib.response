@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Unreal_Laika-0005.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\Unreal_LaikaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Development\Unreal_Laika\StarClass.cpp.obj"
+"D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Development\Unreal_Laika\Unreal_Laika.cpp.obj"
+"D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Development\Unreal_Laika\Unreal_LaikaGameModeBase.cpp.obj"
+"D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Development\Unreal_Laika\StarClass.gen.cpp.obj"
+"D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Development\Unreal_Laika\Unreal_Laika.init.gen.cpp.obj"
+"D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Development\Unreal_Laika\Unreal_LaikaGameModeBase.gen.cpp.obj"
+"D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Development\Unreal_Laika\Default.rc2.res"
+/OUT:"D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Development\Unreal_Laika\UE4Editor-Unreal_Laika-0005.lib"
+/INCLUDE:IMPLEMENT_MODULE_Unreal_Laika
