@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeUnreal_Laika_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x9A48CABB,
+				0x88299646,
 				0xB926376A,
 				METADATA_PARAMS(nullptr, 0)
 			};

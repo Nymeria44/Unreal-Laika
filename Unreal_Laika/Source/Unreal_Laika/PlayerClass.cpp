@@ -4,6 +4,7 @@
 #include "PlayerClass.h"
 #include "GameFramework/Pawn.h"
 #include "GameFramework/FloatingPawnMovement.h"
+#include "GameFramework/SpringArmComponent.h"
 #include "Components/InputComponent.h"
 #include "Camera/CameraComponent.h"
 
@@ -19,10 +20,14 @@ APlayerClass::APlayerClass()
 	//Constructing mesh
 	PlayerMesh = CreateAbstractDefaultSubobject<UStaticMeshComponent>("PlayerMesh");
 	
-	//Constructing Camera
+	//Constructing Camera Arm
+	CameraArm = CreateAbstractDefaultSubobject<USpringArmComponent>("CameraSpringArm");
+	CameraArm->SetupAttachment(PlayerMesh);
+	CameraArm->TargetArmLength = 500.f;
+
+	//Constructing Camera and setting location
 	Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
-	Camera->SetRelativeLocation(FVector(-500.f, 0.f, 0.f));
-	Camera->SetupAttachment(PlayerMesh);
+	Camera->SetupAttachment(CameraArm);
 
 	SetRootComponent(PlayerMesh);
 

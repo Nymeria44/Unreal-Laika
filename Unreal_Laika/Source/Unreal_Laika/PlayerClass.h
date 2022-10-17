@@ -15,11 +15,17 @@ public:
 	// Sets default values for this pawn's properties
 	APlayerClass();
 
+	//Delcaring Mesh which is used for the player
 	UPROPERTY(EditAnywhere, Category = "Components")
 	class UStaticMeshComponent* PlayerMesh;
 
+	//Declaring Camera controlled by the camera
 	UPROPERTY(EditAnywhere, Category = "Components")
 	class UCameraComponent* Camera;
+
+	//Declaring Camera Arm to avoid clipping into objects
+	UPROPERTY(EditAnywhere, Category = "Components")
+	class USpringArmComponent* CameraArm;
 
 protected:
 	// Called when the game starts or when spawned

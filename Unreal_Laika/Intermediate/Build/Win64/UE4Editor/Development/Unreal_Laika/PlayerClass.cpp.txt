@@ -11,5 +11,7 @@ D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavMovementComponent.generated.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PawnMovementComponent.generated.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FloatingPawnMovement.generated.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
