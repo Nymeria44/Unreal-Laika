@@ -55,11 +55,15 @@ void APlayerClass::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	//Binding Movement and camera controls for player
+	//Binding Keys for Movement and Camera Controls
 	PlayerInputComponent->BindAxis("MoveForward", this, &APlayerClass::MoveForward);
+	PlayerInputComponent->BindAxis("MoveUp", this, &APlayerClass::MoveUp);
 	PlayerInputComponent->BindAxis("MoveRight", this, &APlayerClass::MoveRight);
 	PlayerInputComponent->BindAxis("Turn", this, &APlayerClass::Turn);
 	PlayerInputComponent->BindAxis("LookUp", this, &APlayerClass::LookUp);
+
+	//Binding Keys for Other Functions
+	PlayerInputComponent->BindAction("SearchForStar", IE_Pressed, this, &APlayerClass::SearchForStar);
 }
 
 /********************************************************************************
@@ -68,6 +72,11 @@ void APlayerClass::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 void APlayerClass::MoveForward(float Value)
 {
 	FloatingPawnMovement->AddInputVector(GetActorForwardVector() * Value);
+}
+
+void APlayerClass::MoveUp(float Value)
+{
+	FloatingPawnMovement->AddInputVector(GetActorUpVector() * Value);
 }
 
 void APlayerClass::MoveRight(float Value)
@@ -83,4 +92,15 @@ void APlayerClass::Turn(float Value)
 void APlayerClass::LookUp(float Value)
 {
 	AddControllerPitchInput(Value);
+}
+
+/********************************************************************************
+* OTHER PLAYER CONTROLLED ACTION FUNCTIONS
+********************************************************************************/
+void APlayerClass::SearchForStar(float Value)
+{
+	if (Value)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("This worked"));
+	}
 }

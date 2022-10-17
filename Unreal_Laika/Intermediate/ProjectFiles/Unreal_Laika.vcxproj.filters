@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Unreal_Laika.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CB3DB596-7B1B-4E9E-AEA3-B35583AEBCB7}</UniqueIdentifier>
+      <UniqueIdentifier>{B8C9AA7F-7944-42B2-ADA4-B0F611C6524F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Unreal_Laika.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{BD4A416E-1DDF-406B-ABB0-9CBC94441AC7}</UniqueIdentifier>
+      <UniqueIdentifier>{D10A16A8-542B-4533-888F-32EB688183E0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\Unreal_Laika">
-      <UniqueIdentifier>{E193C941-E599-4E66-923D-2A76782F5743}</UniqueIdentifier>
+      <UniqueIdentifier>{5FDC7C94-8A7C-4732-B32B-83FC6610B053}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Unreal_Laika\PlayerClass.cpp">
       <Filter>Source\Unreal_Laika</Filter>
@@ -36,6 +39,12 @@
       <Filter>Source\Unreal_Laika</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Unreal_Laika\StarClass.h">
+      <Filter>Source\Unreal_Laika</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Unreal_Laika\UnrealLaikaGameState.cpp">
+      <Filter>Source\Unreal_Laika</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal_Laika\UnrealLaikaGameState.h">
       <Filter>Source\Unreal_Laika</Filter>
     </ClInclude>
     <None Include="..\..\Source\Unreal_Laika\Unreal_Laika.Build.cs">

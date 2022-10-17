@@ -30,12 +30,22 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	
+	class UFloatingPawnMovement* FloatingPawnMovement;
 
+/********************************************************************************
+* MOVEMENT AND CAMERA MOVEMENT FUNCTION DECLARATIONS
+********************************************************************************/
 	/// <summary>
 	/// Movement for player forwards or backwards
 	/// </summary>
 	/// <param name="Value"></param>
-	void MoveForward(float Value);
+	void MoveForward(float Value);	
+	/// <summary>
+	/// Movement for player forwards or backwards
+	/// </summary>
+	/// <param name="Value"></param>
+	void MoveUp(float Value);
 	/// <summary>
 	/// Movement for player left or right
 	/// </summary>
@@ -52,7 +62,11 @@ protected:
 	/// <param name="Value"></param>
 	void LookUp(float Value);
 
-	class UFloatingPawnMovement* FloatingPawnMovement;
+/********************************************************************************
+* OTHER PLAYER CONTROLLED ACTION FUNCTION DECLARATIONS
+********************************************************************************/
+	
+	void SearchForStar(float Value);
 
 public:	
 	// Called every frame

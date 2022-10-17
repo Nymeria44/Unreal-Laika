@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeUnreal_Laika_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x88299646,
-				0xB926376A,
+				0x3E846EDD,
+				0x49D221FB,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

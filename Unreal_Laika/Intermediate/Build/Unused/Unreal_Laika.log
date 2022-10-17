@@ -6,10 +6,11 @@
 D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Source\Unreal_Laika\PlayerClass.cpp(18): warning C4996: 'UObject::CreateAbstractDefaultSubobject': CreateAbstract did not work as intended and has been deprecated in favor of CreateDefaultObject Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
 D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Source\Unreal_Laika\PlayerClass.cpp(21): warning C4996: 'UObject::CreateAbstractDefaultSubobject': CreateAbstract did not work as intended and has been deprecated in favor of CreateDefaultObject Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
 D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Source\Unreal_Laika\PlayerClass.cpp(24): warning C4996: 'UObject::CreateAbstractDefaultSubobject': CreateAbstract did not work as intended and has been deprecated in favor of CreateDefaultObject Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    [2/4] UE4Editor-Unreal_Laika.lib
-       Creating library D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Development\Unreal_Laika\UE4Editor-Unreal_Laika.lib and object D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Development\Unreal_Laika\UE4Editor-Unreal_Laika.exp
-    [3/4] UE4Editor-Unreal_Laika.dll
-       Creating library D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Development\Unreal_Laika\UE4Editor-Unreal_Laika.suppressed.lib and object D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Development\Unreal_Laika\UE4Editor-Unreal_Laika.suppressed.exp
-    [4/4] Unreal_LaikaEditor.target
-  Total time in Parallel executor: 1.32 seconds
-  Total execution time: 1.66 seconds
+D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Source\Unreal_Laika\PlayerClass.cpp(66): error C2664: 'FInputActionBinding &UInputComponent::BindAction<APlayerClass>(const FName,const EInputEvent,UserClass *,void (__cdecl APlayerClass::* )(void))': cannot convert argument 4 from 'void (__cdecl APlayerClass::* )(float)' to 'void (__cdecl APlayerClass::* )(void)'
+            with
+            [
+                UserClass=APlayerClass
+            ]
+    D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Source\Unreal_Laika\PlayerClass.cpp(66): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+    D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h(867): note: see declaration of 'UInputComponent::BindAction'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command ""D:\Program Files\Epic Games\UE_4.25\Engine\Build\BatchFiles\Build.bat" Unreal_LaikaEditor Win64 Development -Project="D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Unreal_Laika.uproject" -WaitMutex -FromMsBuild" exited with code 6.
