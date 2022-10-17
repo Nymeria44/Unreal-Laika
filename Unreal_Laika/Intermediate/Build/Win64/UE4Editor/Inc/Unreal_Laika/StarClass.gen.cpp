@@ -296,7 +296,7 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_ID_MetaData[] = {
 		{ "Category", "Characteristic" },
-		{ "Comment", "/********************************************************************************\n\x09* PROPERTIES OF THE STAR\n\x09********************************************************************************///ID number of the star\n" },
+		{ "Comment", "/********************************************************************************\n* PROPERTIES OF THE STAR\n********************************************************************************///ID number of the star\n" },
 		{ "ModuleRelativePath", "StarClass.h" },
 		{ "ToolTip", "PROPERTIES OF THE STAR\n******************************************************************************//ID number of the star" },
 	};
@@ -362,7 +362,7 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStarClass, 103529525);
+	IMPLEMENT_CLASS(AStarClass, 2544263005);
 	template<> UNREAL_LAIKA_API UClass* StaticClass<AStarClass>()
 	{
 		return AStarClass::StaticClass();

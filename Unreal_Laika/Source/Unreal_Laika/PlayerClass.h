@@ -35,6 +35,16 @@ protected:
 	/// </summary>
 	/// <param name="Value"></param>
 	void MoveRight(float Value);
+	/// <summary>
+	/// Allows player to turn
+	/// </summary>
+	/// <param name="Value"></param>
+	void Turn(float Value);
+	/// <summary>
+	/// Allows player to look up
+	/// </summary>
+	/// <param name="Value"></param>
+	void LookUp(float Value);
 
 	class UFloatingPawnMovement* FloatingPawnMovement;
 

@@ -19,9 +19,9 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Components")
 	class UStaticMeshComponent* StarMesh;
 
-	/********************************************************************************
-	* PROPERTIES OF THE STAR
-	********************************************************************************/
+/********************************************************************************
+* PROPERTIES OF THE STAR
+********************************************************************************/
 	//ID number of the star
 	UPROPERTY(VisibleAnywhere, Category = "Characteristic")
 	int32 ID;
