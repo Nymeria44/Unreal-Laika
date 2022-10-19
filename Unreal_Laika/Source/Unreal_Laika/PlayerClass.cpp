@@ -63,7 +63,8 @@ void APlayerClass::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAxis("LookUp", this, &APlayerClass::LookUp);
 
 	//Binding Keys for Other Functions
-	PlayerInputComponent->BindAction("SearchForStar", IE_Pressed, this, &APlayerClass::SearchForStar);
+	InputComponent->BindAction("SelectSol", IE_Pressed, this, &APlayerClass::SelectSol);
+	InputComponent->BindAction("SelectRandomStar", IE_Pressed, this, &APlayerClass::SelectRandomStar);
 }
 
 /********************************************************************************
@@ -97,10 +98,12 @@ void APlayerClass::LookUp(float Value)
 /********************************************************************************
 * OTHER PLAYER CONTROLLED ACTION FUNCTIONS
 ********************************************************************************/
-void APlayerClass::SearchForStar(float Value)
+void APlayerClass::SelectSol()
 {
-	if (Value)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("This worked"));
-	}
+	UE_LOG(LogTemp, Warning, TEXT("This is going to Sol"));
+}
+
+void APlayerClass::SelectRandomStar()
+{
+	UE_LOG(LogTemp, Warning, TEXT("This is going to be a random star"));
 }

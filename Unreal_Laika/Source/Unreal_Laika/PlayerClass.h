@@ -66,7 +66,8 @@ protected:
 * OTHER PLAYER CONTROLLED ACTION FUNCTION DECLARATIONS
 ********************************************************************************/
 	
-	void SearchForStar(float Value);
+	void SelectSol();
+	void SelectRandomStar();
 
 public:	
 	// Called every frame
