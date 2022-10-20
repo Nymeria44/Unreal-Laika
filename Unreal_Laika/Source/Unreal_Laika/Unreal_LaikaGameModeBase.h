@@ -13,5 +13,10 @@ UCLASS()
 class UNREAL_LAIKA_API AUnreal_LaikaGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
+
+public:
+	AUnreal_LaikaGameModeBase();
+
+	// void GoToSol();
 	
 };
