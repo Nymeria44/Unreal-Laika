@@ -2,4 +2,6 @@ D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\W
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Source\Unreal_Laika/PlayerClass.h
+D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Source\Unreal_Laika\UpdateGameWorld.h
+D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Inc\Unreal_Laika\UpdateGameWorld.generated.h
 D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Inc\Unreal_Laika\PlayerClass.generated.h

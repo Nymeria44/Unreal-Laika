@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define UNREAL_LAIKA_PlayerClass_generated_h
 
-#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_SPARSE_DATA
-#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_RPC_WRAPPERS
-#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_INCLASS_NO_PURE_DECLS \
+#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_SPARSE_DATA
+#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_RPC_WRAPPERS
+#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayerClass(); \
 	friend struct Z_Construct_UClass_APlayerClass_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(APlayerClass)
 
 
-#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_INCLASS \
+#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAPlayerClass(); \
 	friend struct Z_Construct_UClass_APlayerClass_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(APlayerClass)
 
 
-#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_STANDARD_CONSTRUCTORS \
+#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APlayerClass(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APlayerClass) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_ENHANCED_CONSTRUCTORS \
+#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APlayerClass(APlayerClass&&); \
@@ -58,28 +58,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerClass); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APlayerClass)
 
 
-#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_PRIVATE_PROPERTY_OFFSET
-#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_9_PROLOG
-#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_GENERATED_BODY_LEGACY \
+#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_PRIVATE_PROPERTY_OFFSET
+#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_PROLOG
+#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_PRIVATE_PROPERTY_OFFSET \
-	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_SPARSE_DATA \
-	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_RPC_WRAPPERS \
-	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_INCLASS \
-	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_STANDARD_CONSTRUCTORS \
+	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_PRIVATE_PROPERTY_OFFSET \
+	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_SPARSE_DATA \
+	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_RPC_WRAPPERS \
+	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_INCLASS \
+	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_GENERATED_BODY \
+#define Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_PRIVATE_PROPERTY_OFFSET \
-	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_SPARSE_DATA \
-	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_INCLASS_NO_PURE_DECLS \
-	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_12_ENHANCED_CONSTRUCTORS \
+	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_PRIVATE_PROPERTY_OFFSET \
+	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_SPARSE_DATA \
+	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_INCLASS_NO_PURE_DECLS \
+	Unreal_Laika_Source_Unreal_Laika_PlayerClass_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

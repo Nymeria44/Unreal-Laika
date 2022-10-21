@@ -4,7 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+//Developer made header files
+#include "UpdateGameWorld.h"
 #include "PlayerClass.generated.h"
+
 
 UCLASS()
 class UNREAL_LAIKA_API APlayerClass : public APawn
@@ -26,6 +29,9 @@ public:
 	//Declaring Camera Arm to avoid clipping into objects
 	UPROPERTY(EditAnywhere, Category = "Components")
 	class USpringArmComponent* CameraArm;
+
+	//Declaring Updategameworld function
+	AUpdateGameWorld* UpdateGameWorld;
 
 protected:
 	// Called when the game starts or when spawned

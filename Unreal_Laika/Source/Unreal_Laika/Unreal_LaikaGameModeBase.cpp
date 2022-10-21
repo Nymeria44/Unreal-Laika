@@ -7,11 +7,4 @@
 AUnreal_LaikaGameModeBase::AUnreal_LaikaGameModeBase()
 {
 
-
-
 }
-
-//void AUnreal_LaikaGameModeBase::GoToSol()
-//{
-	
-//}

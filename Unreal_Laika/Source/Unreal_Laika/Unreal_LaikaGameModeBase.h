@@ -16,7 +16,5 @@ class UNREAL_LAIKA_API AUnreal_LaikaGameModeBase : public AGameModeBase
 
 public:
 	AUnreal_LaikaGameModeBase();
-
-	// void GoToSol();
 	
 };

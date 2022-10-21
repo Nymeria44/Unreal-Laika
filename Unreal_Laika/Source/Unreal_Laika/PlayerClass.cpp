@@ -8,6 +8,7 @@
 #include "Components/InputComponent.h"
 #include "Camera/CameraComponent.h"
 
+
 // Sets default values
 APlayerClass::APlayerClass()
 {
@@ -53,7 +54,7 @@ void APlayerClass::Tick(float DeltaTime)
 // Called to bind functionality to input
 void APlayerClass::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	
 
 	//Binding Keys for Movement and Camera Controls
 	PlayerInputComponent->BindAxis("MoveForward", this, &APlayerClass::MoveForward);
@@ -100,10 +101,10 @@ void APlayerClass::LookUp(float Value)
 ********************************************************************************/
 void APlayerClass::SelectSol()
 {
-	UE_LOG(LogTemp, Warning, TEXT("This is going to Sol"));
+	UpdateGameWorld->SelectSol();
 }
 
 void APlayerClass::SelectRandomStar()
 {
-	UE_LOG(LogTemp, Warning, TEXT("This is going to be a random star"));
+	UpdateGameWorld->SelectRandomStar();
 }
