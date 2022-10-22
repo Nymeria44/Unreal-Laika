@@ -10,6 +10,10 @@ UCLASS()
 class UNREAL_LAIKA_API AUpdateGameWorld : public AActor
 {
 	GENERATED_BODY()
+
+	//Creating Datatable definition
+	UPROPERTY(EditAnywhere, Category = "Datatable")
+		class UDataTable* StarDataTable;
 	
 public:	
 	// Sets default values for this actor's properties
@@ -20,7 +24,15 @@ public:
 	/// </summary>
 	void SelectSol();
 
+	/// <summary>
+	/// Selects random star from data base
+	/// </summary>
 	void SelectRandomStar();
+
+	/// <summary>
+	/// Pulls data from database
+	/// </summary>
+	void PullData(int32 ID);
 
 protected:
 	// Called when the game starts or when spawned

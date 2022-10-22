@@ -58,7 +58,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AUpdateGameWorld); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AUpdateGameWorld)
 
 
-#define Unreal_Laika_Source_Unreal_Laika_UpdateGameWorld_h_12_PRIVATE_PROPERTY_OFFSET
+#define Unreal_Laika_Source_Unreal_Laika_UpdateGameWorld_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__StarDataTable() { return STRUCT_OFFSET(AUpdateGameWorld, StarDataTable); }
+
+
 #define Unreal_Laika_Source_Unreal_Laika_UpdateGameWorld_h_9_PROLOG
 #define Unreal_Laika_Source_Unreal_Laika_UpdateGameWorld_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

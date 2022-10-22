@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeUpdateGameWorld() {}
 	UNREAL_LAIKA_API UClass* Z_Construct_UClass_AUpdateGameWorld();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Unreal_Laika();
+	ENGINE_API UClass* Z_Construct_UClass_UDataTable_NoRegister();
 // End Cross Module References
 	void AUpdateGameWorld::StaticRegisterNativesAUpdateGameWorld()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeUpdateGameWorld() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StarDataTable_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_StarDataTable;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -44,6 +50,18 @@ void EmptyLinkFunctionForGeneratedCodeUpdateGameWorld() {}
 		{ "ModuleRelativePath", "UpdateGameWorld.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUpdateGameWorld_Statics::NewProp_StarDataTable_MetaData[] = {
+		{ "Category", "Datatable" },
+		{ "Comment", "//Creating Datatable definition\n" },
+		{ "ModuleRelativePath", "UpdateGameWorld.h" },
+		{ "ToolTip", "Creating Datatable definition" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AUpdateGameWorld_Statics::NewProp_StarDataTable = { "StarDataTable", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUpdateGameWorld, StarDataTable), Z_Construct_UClass_UDataTable_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AUpdateGameWorld_Statics::NewProp_StarDataTable_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AUpdateGameWorld_Statics::NewProp_StarDataTable_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AUpdateGameWorld_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUpdateGameWorld_Statics::NewProp_StarDataTable,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AUpdateGameWorld_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AUpdateGameWorld>::IsAbstract,
 	};
@@ -53,11 +71,11 @@ void EmptyLinkFunctionForGeneratedCodeUpdateGameWorld() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AUpdateGameWorld_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AUpdateGameWorld_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AUpdateGameWorld_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AUpdateGameWorld_Statics::Class_MetaDataParams))
@@ -71,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeUpdateGameWorld() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUpdateGameWorld, 3277708387);
+	IMPLEMENT_CLASS(AUpdateGameWorld, 2165424837);
 	template<> UNREAL_LAIKA_API UClass* StaticClass<AUpdateGameWorld>()
 	{
 		return AUpdateGameWorld::StaticClass();

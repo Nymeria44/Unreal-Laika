@@ -2,12 +2,20 @@
 
 
 #include "UpdateGameWorld.h"
+#include "Engine/DataTable.h"
 
 // Sets default values
 AUpdateGameWorld::AUpdateGameWorld()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	//Load 'StarDatabase' Datatable
+	static ConstructorHelpers::FObjectFinder<UDataTable> StarDataBaseObject(TEXT("DataTable'/Game/Database/StarDatabase.StarDatabase'"));
+	if (StarDataBaseObject.Succeeded())
+	{
+		StarDataTable = StarDataBaseObject.Object;
+	}
 
 }
 
@@ -25,12 +33,25 @@ void AUpdateGameWorld::Tick(float DeltaTime)
 
 }
 
+
+
+/********************************************************************************
+* PLAYER ISSUED FUNCTIONS
+********************************************************************************/
 void AUpdateGameWorld::SelectSol()
 {
-	UE_LOG(LogTemp, Warning, TEXT("This is going to Sol"));
+
 }
 
 void AUpdateGameWorld::SelectRandomStar()
 {
 	UE_LOG(LogTemp, Warning, TEXT("This is going to be a random star"));
+}
+
+/********************************************************************************
+* DATATABLE FUNCTIONS
+********************************************************************************/
+void AUpdateGameWorld::PullData(int32 ID)
+{
+	
 }
