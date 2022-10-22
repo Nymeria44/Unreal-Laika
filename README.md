@@ -28,13 +28,13 @@ XYZ are the Cartesian coordinates of the star,
 in a system based on the equatorial coordinates as seen from Earth. <br/>
 +X is in the direction of the vernal equinox (at epoch 2000), <br/>
 +Z towards the north celestial pole, <br/>
-+Y in the direction of R.A. 6 hours, declination 0 degrees
++Y in the direction of R.A. 6 hours, declination 0 degrees<br/>
 
 
-Unreal Fix ---------------------
-Install Visual Studio 2019
-Include "Desktop development with C++" and "Game development with C++" in workloads
-Include the latest version of .NET SDK under Individual components
-now you will be able to rebuild the project when attempting to launch it
-once project is open in unreal go to 'File -> Create Visual Studio Project
+Unreal Fix ---------------------<br/>
+Install Visual Studio 2019<br/>
+Include "Desktop development with C++" and "Game development with C++" in workloads<br/>
+Include the latest version of .NET SDK under Individual components<br/>
+now you will be able to rebuild the project when attempting to launch it<br/>
+once project is open in unreal go to 'File -> Create Visual Studio Project<br/>
 Everything should be working properly now
