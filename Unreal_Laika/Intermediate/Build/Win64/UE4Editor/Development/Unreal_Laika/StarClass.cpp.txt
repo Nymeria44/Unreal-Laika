@@ -1,3 +1,3 @@
-D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Development\Unreal_Laika\Definitions.Unreal_Laika.h
-D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Source\Unreal_Laika\StarClass.h
-D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Inc\Unreal_Laika\StarClass.generated.h
+D:\Code Stuff\FunB\Unreal-Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Development\Unreal_Laika\Definitions.Unreal_Laika.h
+D:\Code Stuff\FunB\Unreal-Laika\Unreal_Laika\Source\Unreal_Laika\StarClass.h
+D:\Code Stuff\FunB\Unreal-Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Inc\Unreal_Laika\StarClass.generated.h
