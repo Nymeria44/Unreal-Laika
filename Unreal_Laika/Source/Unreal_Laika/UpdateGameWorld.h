@@ -28,6 +28,7 @@ public:
 	/// Selects random star from data base
 	/// </summary>
 	void SelectRandomStar();
+	/* store variable of the star when it is selected */
 
 	/// <summary>
 	/// Pulls data from database
