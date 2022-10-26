@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Unreal_Laika",
-			"Path": "D:\\Code Stuff\\FunB\\Unreal-Laika\\Unreal_Laika\\Source\\Unreal_Laika.Target.cs",
+			"Path": "D:\\Documents\\Programing\\GitKraken\\Unreal Laika\\Unreal_Laika\\Source\\Unreal_Laika.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "Unreal_LaikaEditor",
-			"Path": "D:\\Code Stuff\\FunB\\Unreal-Laika\\Unreal_Laika\\Source\\Unreal_LaikaEditor.Target.cs",
+			"Path": "D:\\Documents\\Programing\\GitKraken\\Unreal Laika\\Unreal_Laika\\Source\\Unreal_LaikaEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

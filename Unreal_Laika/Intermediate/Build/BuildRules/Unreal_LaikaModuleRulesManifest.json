@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\jacob\\Documents\\GitHub\\Unreal-Laika\\Unreal_Laika\\Source\\Unreal_Laika\\Unreal_Laika.Build.cs",
-		"C:\\Users\\jacob\\Documents\\GitHub\\Unreal-Laika\\Unreal_Laika\\Source\\Unreal_Laika.Target.cs",
-		"C:\\Users\\jacob\\Documents\\GitHub\\Unreal-Laika\\Unreal_Laika\\Source\\Unreal_LaikaEditor.Target.cs"
+		"D:\\Documents\\Programing\\GitKraken\\Unreal Laika\\Unreal_Laika\\Source\\Unreal_Laika\\Unreal_Laika.Build.cs",
+		"D:\\Documents\\Programing\\GitKraken\\Unreal Laika\\Unreal_Laika\\Source\\Unreal_Laika.Target.cs",
+		"D:\\Documents\\Programing\\GitKraken\\Unreal Laika\\Unreal_Laika\\Source\\Unreal_LaikaEditor.Target.cs"
 	],
 	"EngineVersion": "4.25.4"
 }
