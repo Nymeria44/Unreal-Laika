@@ -3,4 +3,6 @@ D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Source\Unreal_Laika\
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
+D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Source\Unreal_Laika\StarClass.h
+D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Inc\Unreal_Laika\StarClass.generated.h
 D:\Documents\Programing\GitKraken\Unreal Laika\Unreal_Laika\Intermediate\Build\Win64\UE4Editor\Inc\Unreal_Laika\UpdateGameWorld.generated.h

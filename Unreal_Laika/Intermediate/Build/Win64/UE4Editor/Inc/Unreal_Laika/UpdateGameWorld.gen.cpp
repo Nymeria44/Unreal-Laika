@@ -128,7 +128,9 @@ static struct FScriptStruct_Unreal_Laika_StaticRegisterNativesFStarInfoStruct
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FStarInfoStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+		{ "Comment", "/********************************************************************************\n* DATA STRUCTURE USED IN DATATABLE\n********************************************************************************/" },
 		{ "ModuleRelativePath", "UpdateGameWorld.h" },
+		{ "ToolTip", "DATA STRUCTURE USED IN DATATABLE" },
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FStarInfoStruct_Statics::NewStructOps()
@@ -341,7 +343,7 @@ static struct FScriptStruct_Unreal_Laika_StaticRegisterNativesFStarInfoStruct
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FStarInfoStruct_Hash() { return 4291011156U; }
+	uint32 Get_Z_Construct_UScriptStruct_FStarInfoStruct_Hash() { return 371416416U; }
 	void AUpdateGameWorld::StaticRegisterNativesAUpdateGameWorld()
 	{
 	}

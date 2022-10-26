@@ -8,8 +8,13 @@
 #include "Engine/DataTable.h"
 #include "Math/Vector.h"
 
+#include "StarClass.h"
+
 #include "UpdateGameWorld.generated.h"
 
+/********************************************************************************
+* DATA STRUCTURE USED IN DATATABLE
+********************************************************************************/
 USTRUCT(BlueprintType)
 struct FStarInfoStruct : public FTableRowBase
 {
@@ -79,6 +84,11 @@ class UNREAL_LAIKA_API AUpdateGameWorld : public AActor
 		class UDataTable* StarDataTable;
 	
 public:	
+	
+
+	//Creating pointer to StarClass
+	AStarClass* StarClass;
+
 	// Sets default values for this actor's properties
 	AUpdateGameWorld();
 
@@ -96,7 +106,13 @@ public:
 	/// <summary>
 	/// Pulls data from database
 	/// </summary>
-	void PullData(int32 ID);
+	FStarInfoStruct* PullData(FName RowIndex);
+
+	/// <summary>
+	/// Updates Star class with information from Struct
+	/// </summary>
+	/// <param name="StarData"></param>
+	void SetStar(FStarInfoStruct* StarData);
 
 protected:
 	// Called when the game starts or when spawned

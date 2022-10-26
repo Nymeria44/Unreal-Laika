@@ -17,6 +17,7 @@ AUpdateGameWorld::AUpdateGameWorld()
 		StarDataTable = StarDataBaseObject.Object;
 	}
 
+	
 }
 
 // Called when the game starts or when spawned
@@ -40,7 +41,8 @@ void AUpdateGameWorld::Tick(float DeltaTime)
 ********************************************************************************/
 void AUpdateGameWorld::SelectSol()
 {
-
+	FStarInfoStruct* StarData = PullData(FName(TEXT("53")));
+	SetStar(StarData);
 }
 
 void AUpdateGameWorld::SelectRandomStar()
@@ -51,7 +53,47 @@ void AUpdateGameWorld::SelectRandomStar()
 /********************************************************************************
 * DATATABLE FUNCTIONS
 ********************************************************************************/
-void AUpdateGameWorld::PullData(int32 ID)
+FStarInfoStruct* AUpdateGameWorld::PullData(FName RowIndex)
 {
-	
+	if (StarDataTable)
+	{
+		static const FString ContextString(TEXT("Star Data Context"));
+		FStarInfoStruct* StarData = StarDataTable->FindRow<FStarInfoStruct>(RowIndex, ContextString, true);
+		if (StarData)
+		{
+			return StarData;
+		}
+		else
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Data Row was not successfully extracted"));
+			return nullptr;
+		}
+	}
+	else
+	{
+		return nullptr;
+	}
+}
+
+void AUpdateGameWorld::SetStar(FStarInfoStruct* StarData)
+{
+	StarClass->ID = StarData->ID;
+	StarClass->ProperName = StarData->ProperName;
+	StarClass->Luminosity = StarData->Luminosity;
+	StarClass->Spect = StarData->Spect;
+	StarClass->ci = StarData->ci;
+	StarClass->comp = StarData->comp;
+	StarClass->CompPrimary = StarData->CompPrimary;
+	StarClass->PosX = StarData->PosX;
+	StarClass->PosY = StarData->PosY;
+	StarClass->PosZ = StarData->PosZ;
+	StarClass->AbsMag = StarData->AbsMag;
+	StarClass->StarSpectralTypeLetter = StarData->StarSpectralTypeLetter;
+	StarClass->StarSpectralTypeNumber = StarData->StarSpectralTypeNumber;
+	StarClass->StarHRType = StarData->StarHRType;
+	StarClass->Mass = StarData->Mass;
+	StarClass->Radius = StarData->Radius;
+	StarClass->Red = StarData->ColourVec.X;
+	StarClass->Green = StarData->ColourVec.Y;
+	StarClass->Blue = StarData->ColourVec.Z;
 }

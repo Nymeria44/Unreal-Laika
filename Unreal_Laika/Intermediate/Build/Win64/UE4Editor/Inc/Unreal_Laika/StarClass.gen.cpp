@@ -136,14 +136,14 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		{ "ModuleRelativePath", "StarClass.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_Blue = { "Blue", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, Blue), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_Blue_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_Blue_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_Blue = { "Blue", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, Blue), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_Blue_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_Blue_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_Green_MetaData[] = {
 		{ "Category", "Characteristic" },
 		{ "ModuleRelativePath", "StarClass.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_Green = { "Green", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, Green), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_Green_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_Green_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_Green = { "Green", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, Green), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_Green_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_Green_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_Red_MetaData[] = {
 		{ "Category", "Characteristic" },
@@ -152,7 +152,7 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		{ "ToolTip", "R,G,B of the star" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_Red = { "Red", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, Red), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_Red_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_Red_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_Red = { "Red", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, Red), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_Red_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_Red_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_Radius_MetaData[] = {
 		{ "Category", "Characteristic" },
@@ -161,7 +161,7 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		{ "ToolTip", "Radius of the star" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_Radius = { "Radius", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, Radius), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_Radius_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_Radius_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_Radius = { "Radius", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, Radius), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_Radius_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_Radius_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_Temperature_MetaData[] = {
 		{ "Category", "Characteristic" },
@@ -170,7 +170,7 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		{ "ToolTip", "Tempature of the star" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_Temperature = { "Temperature", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, Temperature), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_Temperature_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_Temperature_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_Temperature = { "Temperature", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, Temperature), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_Temperature_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_Temperature_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_Mass_MetaData[] = {
 		{ "Category", "Characteristic" },
@@ -179,7 +179,7 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		{ "ToolTip", "Mass of the star" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_Mass = { "Mass", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, Mass), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_Mass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_Mass_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_Mass = { "Mass", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, Mass), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_Mass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_Mass_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_StarHRType_MetaData[] = {
 		{ "Category", "Characteristic" },
@@ -188,7 +188,7 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		{ "ToolTip", "WHAT IS THIS" },
 	};
 #endif
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_StarHRType = { "StarHRType", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, StarHRType), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_StarHRType_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_StarHRType_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_StarHRType = { "StarHRType", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, StarHRType), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_StarHRType_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_StarHRType_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_StarSpectralTypeNumber_MetaData[] = {
 		{ "Category", "Characteristic" },
@@ -197,7 +197,7 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		{ "ToolTip", "WHAT IS THIS" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_StarSpectralTypeNumber = { "StarSpectralTypeNumber", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, StarSpectralTypeNumber), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_StarSpectralTypeNumber_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_StarSpectralTypeNumber_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_StarSpectralTypeNumber = { "StarSpectralTypeNumber", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, StarSpectralTypeNumber), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_StarSpectralTypeNumber_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_StarSpectralTypeNumber_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_StarSpectralTypeLetter_MetaData[] = {
 		{ "Category", "Characteristic" },
@@ -206,7 +206,7 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		{ "ToolTip", "WHAT IS THIS" },
 	};
 #endif
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_StarSpectralTypeLetter = { "StarSpectralTypeLetter", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, StarSpectralTypeLetter), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_StarSpectralTypeLetter_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_StarSpectralTypeLetter_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_StarSpectralTypeLetter = { "StarSpectralTypeLetter", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, StarSpectralTypeLetter), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_StarSpectralTypeLetter_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_StarSpectralTypeLetter_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_AbsMag_MetaData[] = {
 		{ "Category", "Characteristic" },
@@ -215,21 +215,21 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		{ "ToolTip", "Absolute Magnitude (Fixed Brightness)" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_AbsMag = { "AbsMag", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, AbsMag), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_AbsMag_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_AbsMag_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_AbsMag = { "AbsMag", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, AbsMag), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_AbsMag_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_AbsMag_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_PosZ_MetaData[] = {
 		{ "Category", "Characteristic" },
 		{ "ModuleRelativePath", "StarClass.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_PosZ = { "PosZ", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, PosZ), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_PosZ_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_PosZ_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_PosZ = { "PosZ", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, PosZ), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_PosZ_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_PosZ_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_PosY_MetaData[] = {
 		{ "Category", "Characteristic" },
 		{ "ModuleRelativePath", "StarClass.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_PosY = { "PosY", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, PosY), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_PosY_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_PosY_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_PosY = { "PosY", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, PosY), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_PosY_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_PosY_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_PosX_MetaData[] = {
 		{ "Category", "Characteristic" },
@@ -238,7 +238,7 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		{ "ToolTip", "Position within the galaxy (sun is 0,0,0)" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_PosX = { "PosX", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, PosX), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_PosX_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_PosX_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_PosX = { "PosX", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, PosX), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_PosX_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_PosX_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_CompPrimary_MetaData[] = {
 		{ "Category", "Characteristic" },
@@ -247,7 +247,7 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		{ "ToolTip", "Are there multiple stars within the system?" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_CompPrimary = { "CompPrimary", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, CompPrimary), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_CompPrimary_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_CompPrimary_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_CompPrimary = { "CompPrimary", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, CompPrimary), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_CompPrimary_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_CompPrimary_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_comp_MetaData[] = {
 		{ "Category", "Characteristic" },
@@ -256,7 +256,7 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		{ "ToolTip", "What star number is it within the system?" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_comp = { "comp", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, comp), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_comp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_comp_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_comp = { "comp", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, comp), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_comp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_comp_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_ci_MetaData[] = {
 		{ "Category", "Characteristic" },
@@ -265,7 +265,7 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		{ "ToolTip", "WHAT IS THIS" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_ci = { "ci", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, ci), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_ci_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_ci_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_ci = { "ci", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, ci), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_ci_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_ci_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_Spect_MetaData[] = {
 		{ "Category", "Characteristic" },
@@ -274,7 +274,7 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		{ "ToolTip", "Spectral type of the star" },
 	};
 #endif
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_Spect = { "Spect", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, Spect), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_Spect_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_Spect_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_Spect = { "Spect", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, Spect), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_Spect_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_Spect_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_Luminosity_MetaData[] = {
 		{ "Category", "Characteristic" },
@@ -283,7 +283,7 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		{ "ToolTip", "Lumonoisty of the star" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_Luminosity = { "Luminosity", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, Luminosity), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_Luminosity_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_Luminosity_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_Luminosity = { "Luminosity", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, Luminosity), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_Luminosity_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_Luminosity_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_ProperName_MetaData[] = {
 		{ "Category", "Characteristic" },
@@ -292,7 +292,7 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		{ "ToolTip", "English name" },
 	};
 #endif
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_ProperName = { "ProperName", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, ProperName), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_ProperName_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_ProperName_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_ProperName = { "ProperName", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, ProperName), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_ProperName_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_ProperName_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_ID_MetaData[] = {
 		{ "Category", "Characteristic" },
@@ -301,7 +301,7 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		{ "ToolTip", "PROPERTIES OF THE STAR\n******************************************************************************//ID number of the star" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_ID = { "ID", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, ID), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_ID_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_ID_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AStarClass_Statics::NewProp_ID = { "ID", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarClass, ID), METADATA_PARAMS(Z_Construct_UClass_AStarClass_Statics::NewProp_ID_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarClass_Statics::NewProp_ID_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarClass_Statics::NewProp_StarMesh_MetaData[] = {
 		{ "Category", "Components" },
@@ -362,7 +362,7 @@ void EmptyLinkFunctionForGeneratedCodeStarClass() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStarClass, 2544263005);
+	IMPLEMENT_CLASS(AStarClass, 586261582);
 	template<> UNREAL_LAIKA_API UClass* StaticClass<AStarClass>()
 	{
 		return AStarClass::StaticClass();
